@@ -1,0 +1,74 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    align-items: center;
+    background-image: url(../images/project-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-family: Roboto;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container {
+    cursor: pointer;
+}
+
+.quote-container {
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: #1E201E 0 0 10px 5px;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    max-height: 100%;
+    max-width: 60rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+.new-quote {
+    background-color: #000;
+    border-radius: 5px;
+    border: 0;
+    color: aliceblue;
+    cursor: pointer;
+    margin: 4rem;
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+.new-quote:hover {
+    background-color: #1E201E;
+    color: #fff;
+}
+
+.new-quote:active {
+    background-color: #000;
+}
+
+.heading {
+    background-color: #1E201E;
+    border-radius: 5px;
+    color: aliceblue;
+    margin: 1rem auto;
+    padding: .5rem;
+    text-align: center;
+    width: 30rem;
+}
+
+.author {
+    color: orangered;
+    font-weight: 500;
+}
+
+
+
+
